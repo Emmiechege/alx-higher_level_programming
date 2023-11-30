@@ -13,7 +13,7 @@ if __name__ == "__main__":
         print(len_args, "arguments.")
     elif len_args == 1:
         print(len_args, "arguments:")
-        for z in range(1, len_args + 1):
+        for z in range(len_args + 1):
             print("{:d}: {}".format(z, list_args[z]))
     elif len_args > 1:
         print(len_args, "arguments:")
