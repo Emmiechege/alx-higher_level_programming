@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import sys
-
 if __name__ == "__main__":
     """prints the number of arguments and
     the lists of its arguments
     """
+    import sys
 
     list_args = sys.argv
     len_args = len(list_args) - 1
