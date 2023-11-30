@@ -9,7 +9,6 @@ if __name__ == "__main__":
     list_args = sys.argv
     len_args = len(list_args) - 1
 
-
     if len_args == 0:
         print(len_args, "arguments.")
     elif len_args == 1:
