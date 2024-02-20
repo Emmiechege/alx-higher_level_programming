@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-
-"""Read from a file"""
+"""module prints to stdout content of a textfile"""
 
 
 def read_file(filename=""):
-    """Reads text from a file and prints to stdout"""
-    with open(filename) as file:
-        content = file.read()
-    print(content, end="")
+    """opens and reads a textfile"""
+    with open(filename, 'r', encoding="utf-8") as f:
+        print(f.read(), end='')
