@@ -1,13 +1,4 @@
 #!/usr/bin/python3
-"""No C or c"""
-
-
 def no_c(my_string):
-    """
-    What i do
-    """
-    newstr = ""
-    for i in my_string:
-        if i not in "cC":
-            newstr += i
-    return newstr
+    copy = [x for x in my_string if x != 'c' and x != 'C']
+    return ("".join(copy))
